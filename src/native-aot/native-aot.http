@@ -1,0 +1,11 @@
+@native_aot_HostAddress = http://localhost:5174
+
+GET {{native_aot_HostAddress}}/peaples/
+Accept: application/json
+
+###
+
+GET {{native_aot_HostAddress}}/peaples/1
+Accept: application/json
+
+###
